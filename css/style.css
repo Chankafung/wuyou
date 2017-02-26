@@ -1,0 +1,1032 @@
+header {
+    width: 7.5rem;
+    height: 0.95rem;
+    background: #f0f0f0;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header .top{
+    width: 7rem;
+    margin: 0 auto;
+    margin-top: 0.175rem;
+}
+header .logo {
+    width: 1.56rem;
+    height: 0.37rem;
+    display: inline-block;
+    margin-top: 0.1rem;
+    float: left;
+}
+
+header .top section {
+    float: right;
+}
+
+header .top section img {
+    width: 0.6rem;
+    height: 0.6rem;
+    display: inline-block;
+}
+
+header .top section img:first-child {
+    margin-right: 0.2rem;
+}
+.banner{
+	width: 7.5rem;
+	height: 3.01rem;
+	margin: 0 auto;
+	overflow: hidden;
+	font-size: 0.24rem;
+	/*border: 1px solid #808080;*/
+	/*background: url(../images/banner.jpg) no-repeat center;  注意背景图的使用*/
+	/*background-size: 7.5rem 3.01rem;*/
+}
+.banner img{ 
+	width: 7.5rem;
+	height: 3.01rem;
+}
+.daohang{
+	height:2.03rem;
+	width:7.5rem;
+	background-color: #f6f6f6;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	line-height: 1.2rem;
+}
+
+.daohang section{
+	width:1.5rem;
+	height:1.7rem;
+
+}
+.daohang img{
+	width:0.9rem;
+	height:0.9rem;
+}
+.daohang section h2{
+	width:1.5rem;
+	height: 0.8rem;
+	font-size: 0.26rem;
+	line-height: 0.8rem;
+}
+/* 跑马灯文字 循环向上显示 */
+.liuxue {
+    width: 7.1rem;
+    height: 0.4rem;
+    margin: 0 auto;
+    padding: 0.3rem 0.2rem;
+    overflow: hidden;
+}
+
+.liuxue img {
+    width: 1.48rem;
+    height: 0.35rem;
+    float: left;
+}
+.liuxue ul {
+    width: 5rem;
+    height: 0.4rem;
+    overflow: hidden;
+    display: inline-block;
+    float: left;
+    margin-left: 0.2rem;
+}
+
+.liuxue ul li {
+    width: 5rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    overflow: hidden;
+}
+/*高中生*/
+.gzsheng{
+	height:4.35rem;
+	background-color:#f5f5f5;
+	width:7.5rem;
+}
+.gzsheng .gz1{
+	background:url("../images/bg-block-1.jpg");
+	background-size: 2.38rem 2rem;
+	width:2.38rem;
+	height:2rem;
+}
+.gzsheng .gz1 p{
+	padding-left:0.14rem;
+	
+}
+.gzsheng .gz1 p:first-child{
+	padding-top:0.3rem;
+	font-size:0.27rem;
+	font-weight: bold;
+	color:white;
+	width:1.69rem;
+	height:0.37rem;	
+}
+
+.gzsheng .gz1 p:nth-child(2){
+	margin-top: 0.37rem;
+	font-size:0.24rem;
+	font-weight: bold;
+	color:white;
+}
+.gzsheng .gz1 p:nth-child(3){
+	margin-top: 0.16rem;
+	font-size:0.24rem;
+	font-weight: bold;
+	color:white;
+}
+/*我是大学生*/
+.gzsheng .flex .dxs{
+	background:url("../images/bg-block-2.jpg");
+	background-size: 2.38rem 2rem;
+	width:2.38rem;
+	height:2rem;
+}
+.gzsheng .dxs p{
+	padding-left:0.14rem;
+	
+}
+.gzsheng .dxs p:first-child{
+	padding-top:0.3rem;
+	font-size:0.27rem;
+	font-weight: bold;
+	color:white;
+}
+.gzsheng .dxs p:nth-child(2){
+	margin-top: 0.37rem;
+	font-size:0.24rem;
+	font-weight: bold;
+	color:white;
+}
+.gzsheng .dxs p:nth-child(3){
+	margin-top: 0.16rem;
+	font-size:0.24rem;
+	font-weight: bold;
+	color:white;
+}
+/*我是初中生*/
+.gzsheng .flex .czs{
+	background:url("../images/bg-block-3.jpg");
+	background-size: 2.38rem 2rem;
+	width:2.38rem;
+	height:2rem;
+}
+.gzsheng .czs p{
+	padding-left:0.14rem;
+	
+}
+.gzsheng .czs p:first-child{
+	padding-top:0.3rem;
+	font-size:0.27rem;
+	font-weight: bold;
+	color:white;
+}
+.gzsheng .czs p:nth-child(2){
+	margin-top: 0.37rem;
+	font-size:0.24rem;
+	font-weight: bold;
+	color:white;
+}
+.gzsheng .czs p:nth-child(3){
+	margin-top: 0.16rem;
+	font-size:0.24rem;
+	font-weight: bold;
+	color:white;
+}
+/*弹性盒子*/
+.flex{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 0.33rem;
+}
+/*高考留学正当时*/
+.dangshi{
+	display: flex;
+	justify-content: space-between;
+}
+.gklx{
+	background:url("../images/bg-block-4.jpg");
+	background-size: 3.66rem ,1.55rem;
+	width:3.66rem;
+	height:1.55rem;
+	margin-top:23px;
+}
+.gklx h1{
+	font-size: 0.33rem;
+	margin-top:0.26rem;
+	margin-left: 0.14rem;
+	color:white;
+	font-weight:bold;
+}
+.gklx h2{
+	font-size: 0.24rem;
+	margin-left: 0.14rem;
+	margin-top:0.28rem;
+	color:white;
+	font-weight:bold;
+}
+.dangshi .zwmx{
+	background:url("../images/bg-block-5.jpg");
+	background-size: 3.66rem ,1.55rem;
+	width:3.66rem;
+	height:1.55rem;
+	margin-top:23px;
+}
+.zwmx h1{
+	font-size: 0.33rem;
+	margin-top:0.26rem;
+	margin-left: 0.14rem;
+	color:white;
+	font-weight:bold;
+}
+.zwmx h2{
+	font-size: 0.24rem;
+	margin-left: 0.14rem;
+	margin-top:0.28rem;
+	color:white;
+	font-weight:bold;
+}
+/*留学目的地*/
+.lxmdd img:first-child{
+	width:0.44rem;
+	height:0.4rem;
+}
+.lxmdd div:last-child img{
+	width:0.31rem;
+	height:0.26rem;
+}
+.lxmdd{
+	width:7.5rem;
+	height:0.8rem;
+}
+.lxmdd div:first-child{
+	float:left;
+	margin-left:0.22rem;
+	margin-top:0.2rem;
+}
+.lxmdd div:first-child span{
+	margin-left: 0.1rem;
+}
+.lxmdd div:last-child{
+	float:right;
+	margin-right: 0.25rem;
+	margin-top:0.3rem;
+}
+.lxmdd div:last-child img{
+	margin-right: 0.12rem;
+}
+.lxmdd div:last-child span{
+	color:red;
+}
+/*2px的线*/
+.xian{
+	height:0.02rem;
+	width:7.5rem;
+	background-color:#f9f9f9 ;
+}
+/*国家轮播*/
+.gjflex1 img{
+	width:1.2rem;
+	height:1.2rem;
+}
+.gjflex2 img{
+	width:1.2rem;
+	height:1.2rem;
+}
+.gjflex1{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 0.42rem;
+}
+.gjflex2{
+	display: flex;
+	justify-content: space-around;
+	margin-top:0.43rem;
+	height:2rem;
+}
+.banner2{
+	width: 7.5rem;
+	height: 5.15rem;
+	margin: 0 auto;
+	overflow: hidden;
+	font-size: 0.24rem;
+}
+.gjflex1 h2{
+	width:1.2rem;
+	text-align: center;
+	font-size: 0.32rem;
+}
+.gjflex2 h2{
+	width:1.2rem;
+	text-align: center;
+	font-size: 0.32rem;
+}
+.banner2 .page{
+	bottom:-2px;
+}
+/*热门留学院校*/
+.rmlxyx img:first-child{
+	width:0.44rem;
+	height:0.4rem;
+}
+.rmlxyx div:last-child img{
+	width:0.31rem;
+	height:0.26rem;
+}
+.rmlxyx{
+	border-top:0.3rem solid #f5f5f5;
+	width:7.5rem;
+	margin-bottom:0.42rem;
+	height:100%
+}
+.rm-header{
+	height:0.81rem;
+	width:7.5rem;
+	border-bottom: 0.02rem solid #f5f5f5;
+}
+.rmlxyx .rm-header div:first-child{
+	float:left;
+	margin-left:0.22rem;
+	margin-top:0.2rem;
+}
+.rmlxyx .rm-header div:first-child span{
+	margin-left: 0.1rem;
+}
+.rmlxyx .rm-header div:last-child{
+	float:right;
+	margin-right: 0.25rem;
+	margin-top:0.3rem;
+}
+.rmlxyx .rm-header div:last-child img{
+	margin-right: 0.12rem;
+}
+.rmlxyx .rm-headerz div:last-child span{
+	color:red;
+}
+/*地区*/
+.diqu .toubu ul{
+	width:7.5rem;
+	margin:0 auto;
+	overflow: hidden;
+}
+.diqu .toubu ul li{
+	height:0.85rem;
+	width:1.5rem;
+	float:left;
+	text-align: center;
+	line-height: 0.85rem;
+}
+.slide{
+	width:7.5rem;
+	height:6.95rem;
+}
+.diqu .toubu ul li{
+		border-bottom: 0.01rem solid #d2d2d2;
+}
+.diqu .toubu ul .on{
+	border-bottom: 0.02rem solid red;
+}
+/*清华大学加拿大留学班*/
+.qinghua{
+	width:7.5rem;
+	height:1.39rem;
+	background:url("../images/ico_btn10.png") no-repeat;
+	background-size: 0.2rem,0.36rem;
+	background-position:7.07rem 0.2rem;
+}
+.qinghua .re span:first-child{
+	background-color:#fe3c24;
+	font-size:0.26rem;
+	padding:0.05rem;
+	border-radius:0.05rem;
+	color:white;
+	font-weight: bold;
+	margin-left: 0.22rem;
+	font-size:0.24rem;
+}
+
+/*报名中*/
+.qinghua .re span:last-child{
+	font-size:0.24rem;
+	border:1px solid #23cd77;
+	border-radius:0.05rem;
+	color:#23cd77;
+	padding:0.03rem;
+}
+.qinghua p:nth-child(2){
+	font-size:0.2rem;
+	color:#c1c1c1;
+	margin-left: 0.24rem;
+	margin-top:0.2rem;
+	height:0.53rem;
+	border-bottom: 1px solid #f2f2f2;
+}
+/*加载更多*/
+.jzgd{
+	width:7.03rem;
+	height:0.73rem;
+	border:1px solid #cfcfcf;
+	margin:0 auto;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.73rem;;
+	color:#6d6d6d;
+	margin-bottom: 0.45rem;
+}
+/*智能选校*/
+.znxx{
+	width:7.5rem;
+	height:2.08rem;
+	background-color: #f5f5f5;
+	display: flex;
+}
+.znxx .xx{
+	width:3.76rem;
+	height:1.45rem;
+	background:url("../images/back_btn1.png");
+	background-size: 3.76rem,1.45rem;
+	margin-top:0.3rem;
+}
+.znxx .jzltest{
+	width:3.76rem;
+	height:1.45rem;
+	background:url("../images/back_btn2.png");
+	background-size: 3.76rem,1.45rem;
+	margin-top:0.3rem;
+}
+.znxx .xx img{
+	width:0.77rem;
+	height:0.76rem;
+	margin-left: 0.3rem;
+	margin-top:0.35rem;
+}
+.znxx .xx .zn{
+	margin-top: -0.8rem;
+	display: block;
+	margin-left:1.21rem;
+	font-weight: bold;
+	color:white;
+}
+.znxx .xx .dz{
+	display: block;
+	margin-left: 1.21rem;
+	margin-top:0.20rem;
+	font-weight: bold;
+	color:white;
+	font-size: 0.24rem;
+}
+.jzltest img{
+	width:0.77rem;
+	height:0.76rem;
+	margin-left: 0.3rem;
+	margin-top:0.35rem;
+}
+.jzltest .cs{
+	margin-top: -0.8rem;
+	display: block;
+	margin-left:1.21rem;
+	font-weight: bold;
+	color:white;
+}
+.jzltest .wanmei{
+	display: block;
+	margin-left: 1.21rem;
+	margin-top:0.20rem;
+	font-weight: bold;
+	color:white;
+	font-size: 0.24rem;
+}
+/*优选留学方案*/
+.fangan{
+	width:7.5rem;
+	height:1rem;
+	background:url("../images/xiala_icon1.png") no-repeat;
+	background-size: 0.36rem,0.2rem;
+	background-position: 7rem 0.38rem;
+	border-bottom: 0.32rem solid #f5f5f5;
+}
+.fangan img{
+	width:0.44rem;
+	height:0.4rem;
+	margin-left: 0.22rem;
+	margin-top:0.32rem;
+}
+/*优选留学方案下拉list*/
+/*通过border-top填充margin-top的空白处*/
+.content-youxuan-list{
+	background:#f5f5f5;
+	border-top: 0.08rem solid #f5f5f5;
+	display:none;
+}
+.content-youxuan-list .content-yx{
+	width:7.05rem;
+	height:0.62rem;
+	margin:0 auto;
+	font-size:0.25rem;
+	border-bottom:0.02rem solid #f5f5f5;
+}
+.content-youxuan-list .content-yx p{
+	margin-top:0.25rem;
+}
+.content-youxuan-list .content-yx img{
+	margin-right:0.08rem;
+	width: 0.38rem;
+	height: 0.38rem;
+}
+.content-youxuan-list .content-yx p img:last-child{
+	margin-left:1.5rem;
+}
+/*高考留学*/
+.gklx2 img:first-child{
+	width:0.44rem;
+	height:0.4rem;
+}
+.gklx2 div:last-child img{
+	width:0.31rem;
+	height:0.26rem;
+}
+.gklx2{
+	height:0.81rem;
+	width:7.5rem;
+	border-bottom: 2px solid #f9f9f9;
+}
+.gklx2 div:first-child{
+	float:left;
+	margin-left:0.22rem;
+	margin-top:0.2rem;
+}
+.gklx2 div:first-child span{
+	margin-left: 0.1rem;
+}
+.gklx2 div:last-child{
+	float:right;
+	margin-right: 0.25rem;
+	margin-top:0.3rem;
+}
+.gklx2 div:last-child img{
+	margin-right: 0.12rem;
+}
+.gklx2 div:last-child span{
+	color:red;
+}
+/*初名京师大学堂*/
+.chuming{
+	height:0.92rem;
+	width:7.5rem;
+	border-bottom: 0.01rem solid #f4f4f4;
+	background:url("../images/ico_btn10.png") no-repeat;
+	background-position: 7.07rem,0.28rem;
+	background-size:0.2rem,0.36rem;
+}
+.chuming span:first-child{
+	background-color:#ff8b20;
+	color:white;
+	padding:0.03rem;
+	border-radius: 0.05rem;
+	margin-left:0.22rem;
+	line-height: 0.92rem;
+}
+.chuming span:last-child{
+	margin-left: 0.1rem;;
+}
+/*1对1*/
+.ydy{
+	width:7.5rem;
+	height:1.16rem;
+	border-bottom: 0.3rem solid #f5f5f5;
+}
+.ydy div{
+	width:4.05rem;
+	height:0.7rem;
+	border:0.02rem solid #ffa04a;
+	margin:0.38rem auto;
+}
+.ydy div span{
+	color:#ff7a00;
+	line-height: 0.7rem;
+	margin-left:0.45rem;
+}
+/*高中生定制留学*/
+.dingzhiliuxue{
+	width:7.5rem;
+	height:5.03rem;
+	border-bottom: 0.3rem solid #f5f5f5;
+
+}
+.dingzhiliuxue .smalldingzhi{
+	width:7.2rem;
+	height:4.5rem;
+	border:1px solid #ccc;
+	margin:0.25rem auto;
+	position:relative;
+}
+.dingzhiliuxue .smalldingzhi div:first-child{
+	width:2.9rem;
+	height:2.9rem;
+	background:url("../images/index_img.jpg");
+	background-size: 2.9rem,2.9rem;
+}
+.dingzhiliuxue .smalldingzhi div:first-child span{
+	color:white;
+	font-weight: bold;
+	font-size: 0.35rem;
+	margin-left: 0.2rem;
+	line-height:1.55rem;
+}
+.dingzhiliuxue .smalldingzhi div:nth-child(2){
+	width:4.14rem;
+	height:1.36rem;
+	background:url("../images/index_img1.jpg");
+	background-size:100%;
+	position: absolute;
+	right:0;
+	top:0;
+}
+.dingzhiliuxue .smalldingzhi div:nth-child(2) span{
+	color:white;
+	font-weight: bold;
+	font-size: 0.35rem;
+	margin-left: 1.45rem;
+	line-height: 1.36rem;
+}
+.dingzhiliuxue .smalldingzhi div:nth-child(3){
+	background: url("../images/index_img4.jpg");
+	width:3.52rem;
+	height:1.36rem;
+	background-size:100%;
+	position:absolute;
+	left:0;
+	bottom:0;
+}
+.dingzhiliuxue .smalldingzhi div:nth-child(3) span{
+	color:white;
+	font-weight: bold;
+	font-size: 0.35rem;
+	margin-left: 0.5rem;
+	line-height: 1.36rem;
+}
+.dingzhiliuxue .smalldingzhi div:nth-child(4){
+	background:url("../images/index_img5.jpg");
+	width:3.52rem;
+	height:1.37rem;
+	background-size: 100%;
+	position:absolute;
+	right:0;
+	bottom: 0;
+}
+.dingzhiliuxue .smalldingzhi div:nth-child(4) span{
+	color:white;
+	font-weight: bold;
+	font-size: 0.35rem;
+	margin-left: 0.32rem;
+	line-height: 1.4rem;
+}
+.dingzhiliuxue .smalldingzhi div:nth-child(5){
+	background:url("../images/index_img2.jpg");
+	width:1.97rem;
+	height:1.36rem;
+	background-size: 100%;
+	position:absolute;
+	right:2.17rem;
+	top:1.55rem;
+}
+.dingzhiliuxue .smalldingzhi div:nth-child(5) p{
+	color:white;
+	font-weight: bold;
+	font-size: 0.3rem;
+	margin-left:0.4rem;
+}
+.dingzhiliuxue .smalldingzhi div:nth-child(5) p:first-child{
+	margin-top: 0.3rem;
+}
+.dingzhiliuxue .smalldingzhi div:nth-child(6){
+	background:url("../images/index_img3.jpg");
+	width:1.97rem;
+	height:1.36rem;
+	background-size: 100%;
+	position:absolute;
+	right:0;
+	top:1.55rem;
+}
+.dingzhiliuxue .smalldingzhi div:nth-child(6) p:first-child{
+	color:white;
+	font-weight: bold;
+	font-size: 0.3rem;
+	margin-left:0.92rem;
+	margin-top: 0.3rem;
+}
+.dingzhiliuxue .smalldingzhi div:nth-child(6) p:last-child{
+	color:white;
+	font-weight: bold;
+	font-size: 0.3rem;
+	margin-left:0.62rem;
+}
+/*人人都是名校生*/
+.mxs{
+	height:1.11rem;
+	width:7.5rem;
+	border-bottom: 1px solid #f3f3f3;
+}
+.mxs span{
+	font-size: 0.38rem;
+	margin-left:1.5rem;
+	line-height: 1.11rem;
+	color:#646464;
+}
+/*百分比*/
+.percent{
+	height:3.38rem;
+	width:7.5rem;
+	border-bottom: 0.33rem solid #f5f5f5;
+	display: flex;
+}
+.percent .percent-top div:first-child{
+	width:3.75rem;
+	height:1.69rem;
+	background:url("../images/ico_btn18.png") no-repeat;
+	background-position: 0.37rem,0.5rem;
+	background-size: 0.93rem 0.92rem;
+}
+.percent .percent-top div:last-child{
+	width:3.75rem;
+	height:1.69rem;
+	background:url("../images/ico_btn20.png") no-repeat;
+	background-position: 0.37rem,0.5rem;
+	background-size: 0.93rem 0.92rem;
+}
+.percent .percent-down div:first-child{
+	width:3.75rem;
+	height:1.69rem;
+	background:url("../images/ico_btn19.png") no-repeat;
+	background-position: 0.37rem,0.5rem;
+	background-size: 0.93rem 0.92rem;
+}
+.percent .percent-down div:last-child{
+	width:3.75rem;
+	height:1.69rem;
+	background:url("../images/ico_btn21.png") no-repeat;
+	background-position: 0.37rem,0.5rem;
+	background-size: 0.93rem 0.92rem;
+}
+.percent div span{
+	color:#fe3c24;
+	margin-left:1.5rem;
+	line-height: 1.11rem;
+}
+.percent div p{
+	font-size: 0.25rem;
+	margin-left:1.5rem;
+	margin-top:-0.2rem;
+	color:#958b8b;
+}
+/*footer*/
+footer .nav-footer{
+	width:7.5rem;
+	height:1.22rem;
+	display: flex;
+	justify-content: space-around;
+	color:#adadad;
+	margin:0 auto;
+	margin-top:0.11rem;
+}
+.nav-footer section{
+	width:1.875rem;
+	height:0.9rem;
+	text-align: center;
+} 
+.nav-footer section p{
+	margin-top:0.18rem;
+	font-size: 0.21rem;
+}
+/*icon样式*/
+@font-face {
+  font-family: 'iconfont';
+  src: url('../icon-font/iconfont.eot');
+  src: url('../icon-font/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../icon-font/iconfont.woff') format('woff'),
+  url('../icon-font/iconfont.ttf') format('truetype'),
+  url('../icon-font/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:0.32rem;font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.002rem;
+  -moz-osx-font-smoothing: grayscale;
+}
+.iconfont:hover{
+	color:red;
+	font-size: 0.45rem;
+}
+/* 侧边栏展开缩放css */
+.slide_right {
+    position: fixed;
+    top: 0;
+    right: -3rem;
+    width: 3rem;
+    height: 100%;
+    background: #242e30;
+    z-index: 201;
+}
+.slide_right ul li{
+    width: 100%;
+    font-size: 0.26rem;
+    color: #fff;
+    border-bottom: 2px solid #111;
+    text-align: center;
+    height: 0.3rem;
+    line-height: 0.3rem;
+}
+
+.slide_left {
+    position: relative;
+    width: 7.5rem;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    right: 0;
+}
+/*动画按钮*/
+.animation{
+	width: auto;
+	height: auto;
+	position: fixed;
+	bottom: 1.09rem;
+	left: 0.8%;
+	z-index: 100;
+}
+
+.animation .PathMain{
+	float: left;
+	width: 1.26rem;
+	height: 1.3rem;
+	background: url(../images/ico_btn22.png) no-repeat;
+	background-size: 100%;
+	position: relative;
+	z-index: 100;
+}
+
+.animation .PathMain1{
+	background: url(../images/ico_btn23.png) no-repeat;
+	background-size: 100%;
+}
+
+.animation .PathItem{
+	float: left;
+	width: 0.92rem;
+	height: 0.92rem;
+	position: absolute;
+	left: 0.19rem;
+	top: 0.2rem;
+	z-index: 10;
+}
+
+.animation .PathItem a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+.animation .PathItem a.link1{
+	background: url(../images/ico-zw-1.png) no-repeat;
+	background-size: 100%;
+}
+
+.animation .PathItem a.link2{
+	background: url(../images/ico-zw-2.png) no-repeat;
+	background-size: 100%;
+}
+
+.animation .PathItem a.link3{
+	background: url(../images/ico-zw-3.png) no-repeat;
+	background-size: 100%;
+}
+
+.animation .PathItem a.link4{
+	background: url(../images/ico-zw-4.png) no-repeat;
+	background-size: 100%;
+}
+
+.animation .PathItem a.link5{
+	background: url(../images/ico-zw-5.png) no-repeat;
+	background-size: 100%;
+}
+.Pop_up{
+	width: 0.9rem;
+	height: auto;
+	position: fixed;
+	right: 0;
+	bottom:1.15rem;
+	z-index: 200;
+}
+
+.Pop_up img{
+	display: block;
+	width: 100%;
+}
+#TB_overlayBG{
+	position:absolute;
+	z-index:101;
+	left:0;
+	top:0;
+	display:none;
+	width:100%;
+	height:100%;
+	background: rgba(0,0,0,0.2);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa000000',endColorstr='#aa000000');      /*IE6,IE7*/ 
+    -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr='#aa000000', endColorstr='#aa000000')";      /*IE8*/ 
+}
+
+.PopLayer{
+	width: 6.18rem;
+	height: 4.92rem;
+	background: url(../images/back_btn3.png) no-repeat;
+	background-size: 100%;
+	position: absolute;
+	top: 10%;
+	left: 50%;
+	margin-left: -3.10rem;
+	z-index: 3000;
+	display: none;
+}
+
+.PopLayer a{
+	display: block;
+	position: relative;
+	width: 80%;
+	height: 0.73rem;
+	font-size: 0.4rem;
+	color: #262626;
+	line-height: 0.73rem;
+	background: #ffed74;
+	border-radius: 0.1rem;
+	text-align: center;
+	margin: 2.33rem auto 0;
+}
+
+.PopLayer a em{
+	position: absolute;
+	right: -0.15rem;
+	top: -0.15rem;
+	display: inline-block;
+	width: 1.945em;
+	height: 1.945em;
+	line-height: 1.945em;
+	border-radius: 50px;
+	background: #f53429;
+	border: 1px solid #fff;
+	font-size: 0.4em;
+	color: #fff;
+	text-align: center;
+}
+
+.PopLayer .popM{
+	width: 80%;
+	height: auto;
+	margin: 1.5em auto 0;
+}
+
+.PopLayer .popM #test{
+	width: 56%;
+	padding: 0.45em 1% 0.45em 2%;
+	background: #fff;
+	font-size: 0.25rem;
+	color: #c4c4c4;
+	border-radius: 0.5em;
+	float: left;
+}
+
+.PopLayer .popM .popBut{
+	width: 35%;
+	float: right;
+	font-size: 0.32rem;
+	color: #fff;
+	border-radius: 0.1rem;
+	background: #fe3c24;
+	padding: 0.2499em 0;
+}
+.PopLayer .popclose{
+	position: absolute;
+	top: -1.1538em;
+	right: -1.1538em;
+	width: 0.48rem;
+	height: 0.48rem;
+	background: url(../images/ico_btn25.png) no-repeat;
+	background-size: 100%;
+}
+/*加载更多*/
+.slide2 {
+	display: none;
+}
+.slide2 .jzgd{
+	width:7.03rem;
+	height:0.73rem;
+	border:1px solid orange;
+	margin:0 auto;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.73rem;;
+	color:orange;
+	margin-bottom: 0.45rem;
+}
